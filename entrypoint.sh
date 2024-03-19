@@ -47,7 +47,7 @@ if [ "${MAJOR_LAST_RELEASE}" = "${NEXT_RELEASE}" ]; then
 fi
 
 if [ "${NAME}" = "0" ]; then
-  NAME="release: version ${NEXT_RELEASE}"
+  NAME="${NEXT_RELEASE}"
 fi
 
 if [ "${MESSAGE}" = "0" ]; then
